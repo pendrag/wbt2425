@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Copy React build to FastAPI public directory
-cp -r react/out/* fastapi/public/
+# cp -r react/out/* fastapi/public/
 
 # Copy production config to FastAPI config
 cp fastapi/config-prod.py fastapi/config.py
